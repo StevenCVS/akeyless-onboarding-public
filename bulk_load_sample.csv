@@ -1,0 +1,5 @@
+cloud_env,secret_path,secret_name,line_of_business,app_name,itpm_number,description,application_id,owner1,owner2,owner3
+azure,/cvs/iam/asm-ITPM0123456789/secrets/azure/test_azure_secret_asm,,,,,test description,f00913c3-0a8b-48a4-b9f6-30ed61626622,owner1@email.com,owner2@email.com,
+azure,,test_azure_secret_asm_2,iam,asm,ITPM0123456789,,f00913c3-0a8b-48a4-b9f6-30ed61626622,owner1@email2.com,owner2@email2.com,owner3@email2.com
+azure,,test_azure_secret_asm_3,iam,asm,ITPM0123456789,,f00913c3-0a8b-48a4-b9f6-30ed61626622,owner1@email2.com,owner2@email2.com,owner3@email2.com
+azure,,test_azure_secret_asm_4,iam,asm,ITPM0123456789,,f00913c3-0a8b-48a4-b9f6-30ed61626622,owner1@email2.com,owner2@email2.com,owner3@email2.com

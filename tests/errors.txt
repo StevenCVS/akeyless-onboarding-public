@@ -1,0 +1,14 @@
+Secret Path: /cvs/iam/asm-ITPM0123456789/secrets/azure/script_test_azure_secret
+Error: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'access-control-allow-origin': '*', 'cache-control': 'no-cache, no-store, must-revalidate, private', 'content-type': 'application/json', 'expires': '0', 'pragma': 'no-cache', 'vary': 'Origin', 'x-frame-options': 'SAMEORIGIN', 'x-xss-protection': '1; mode=block', 'date': 'Thu, 17 Apr 2025 18:53:47 GMT', 'content-length': '160', 'x-envoy-upstream-service-time': '113', 'server': 'istio-envoy'})
+HTTP response body: {"error":"credentials have expired:Desc: Failed to get temp creds. Status 401 Unauthorized, Error: InvalidCredentials. Message: credentials validation failed"}
+
+
+Secret Path: /cvs/iam/asm-ITPM0123456789/secrets/azure/script_test_azure_secret_2
+Error: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'access-control-allow-origin': '*', 'cache-control': 'no-cache, no-store, must-revalidate, private', 'content-type': 'application/json', 'expires': '0', 'pragma': 'no-cache', 'vary': 'Origin', 'x-frame-options': 'SAMEORIGIN', 'x-xss-protection': '1; mode=block', 'date': 'Thu, 17 Apr 2025 18:53:47 GMT', 'content-length': '160', 'x-envoy-upstream-service-time': '55', 'server': 'istio-envoy'})
+HTTP response body: {"error":"credentials have expired:Desc: Failed to get temp creds. Status 401 Unauthorized, Error: InvalidCredentials. Message: credentials validation failed"}
+
+
